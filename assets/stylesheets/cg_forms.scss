@@ -1,0 +1,83 @@
+/* --------------------------------------------------------------
+
+   FORMS
+
+-------------------------------------------------------------- */
+
+div.content-container input {
+   color: #666666;
+   font-family: Arial,Verdana;
+   font-size: 10pt;
+   font-weight: bold;
+   margin: 0 5px 5px 5px;
+}
+
+
+/* Fieldsets */
+.textarea-addhosts {
+  padding: 6px;
+  width: 640px;
+  height: 100px;
+}
+
+.textarea-search {
+  padding: 6px;
+  width: 180px;
+  position: relative;
+  top: 6px;
+}
+
+/* change form for bootstrap */
+.form-control{
+  border: 1px solid #dddddd !important;
+  border-radius: 1px !important;
+}
+
+.label-form {
+  font-weight: 500;
+  color: gray;
+}
+
+.form-button {
+  border-radius: 2px !important;
+  min-width: 60px !important;
+}
+
+.form-tilte-color {
+  color: #666;
+  font-weight: bold;
+}
+
+label.required:after {
+  content: " *";
+  color: black;
+}
+
+// Tooltip
+.tooltip {
+  background-color: #000;
+    border:1px solid #fff;
+    padding:10px 15px;
+    width:200px;
+    display:none;
+    color: #fff;
+    text-align:left;
+    font-size:12px;
+
+    /* outline radius for mozilla/firefox only */
+    -moz-box-shadow:0 0 10px #000;
+    -webkit-box-shadow:0 0 10px #000;
+}
+
+/* Scan form */
+form #select-targets .form-control-feedback,
+form #select-schedules .form-control-feedback {
+  /* Adjust feedback icon position in scan form */
+  right: -28px;
+  top: 30px;
+}
+
+#form_user .form-group {
+  min-height: 73px !important;
+  margin-bottom:   0 !important;
+}
