@@ -1,0 +1,83 @@
+/* ------------------------------------------------------
+######################  WIDGETS  #########################
+--------------------------------------------------------- */
+$widget_title_color_gray: #797979;
+
+.widget-title {
+  font-size: 15px;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  margin-top: 25px;
+  text-transform: uppercase;
+}
+
+.widget-title-color {
+  color: $widget_title_color_gray !important;
+}
+
+.vertical-line {
+  border-right: 1px solid #dddddd;
+}
+
+.vertical-line-quarter {
+  border-right: 1px solid lightgray;
+}
+
+.widget-box {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  cursor: default;
+  min-height: 150px;
+  padding: 10px;
+
+  img {
+    position: relative;
+    -webkit-transition: all .4s linear;
+    transition: all .4s linear;
+  }
+}
+
+.widget-box:hover img {
+  -ms-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+/* ------------------------------------------------------
+##############   SETTINGS WIDGET   #################
+--------------------------------------------------------- */
+.settings-widget {
+  margin-bottom: 1px;
+  height: 50px;
+  background-color: white;
+}
+
+/* ------------------------------------------------------
+##############  RECENT REPORTS WIDGET  #################
+--------------------------------------------------------- */
+.results-label {
+  border-radius: 3px !important;
+  padding: 1px 8px !important;
+  margin: 2px;
+  color: gray !important;
+}
+.color-label-white {
+  background-color: white !important;
+  color: gray !important;
+  border: 1px solid lightgray;
+}
+.color-label-high {
+  background-color: #f96f6b !important;
+  border: 1px solid #f96f6b;
+}
+.color-label-medium {
+  background-color: #f0ad4e !important;
+  border: 1px solid #f0ad4e;
+}
+.color-label-low {
+  background-color: #fdd017 !important;
+  border: 1px solid  #fdd017;
+}

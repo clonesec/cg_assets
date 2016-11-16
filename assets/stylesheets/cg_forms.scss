@@ -1,20 +1,17 @@
-/* --------------------------------------------------------------
-
-   FORMS
-
--------------------------------------------------------------- */
+/* ------------------------------------------------------
+######################  FORMS  #########################
+--------------------------------------------------------- */
 
 div.content-container input {
-   color: #666666;
-   font-family: Arial,Verdana;
-   font-size: 10pt;
-   font-weight: bold;
-   margin: 0 5px 5px 5px;
+ color: #666666;
+ font-family: Arial,Verdana;
+ font-size: 10pt;
+ font-weight: bold;
+ margin: 0 5px 5px 5px;
 }
 
-
-/* Fieldsets */
-.textarea-addhosts {
+/* Fieldset */
+.textarea-hosts {
   padding: 6px;
   width: 640px;
   height: 100px;
@@ -43,7 +40,7 @@ div.content-container input {
   min-width: 60px !important;
 }
 
-.form-tilte-color {
+.form-title-color {
   color: #666;
   font-weight: bold;
 }
@@ -63,7 +60,6 @@ label.required:after {
     color: #fff;
     text-align:left;
     font-size:12px;
-
     /* outline radius for mozilla/firefox only */
     -moz-box-shadow:0 0 10px #000;
     -webkit-box-shadow:0 0 10px #000;
