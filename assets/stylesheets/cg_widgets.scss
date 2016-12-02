@@ -7,7 +7,7 @@ $widget_title_color_gray: #797979;
   font-size: 15px;
   font-weight: 600;
   letter-spacing: 0.04em;
-  margin-top: 25px;
+  //margin-top: 0px;
   text-transform: uppercase;
 }
 
@@ -15,11 +15,8 @@ $widget_title_color_gray: #797979;
   color: $widget_title_color_gray !important;
 }
 
-.vertical-line {
-  border-right: 1px solid #dddddd;
-}
 
-.vertical-line-quarter {
+.vertical-line-box {
   border-right: 1px solid lightgray;
 }
 
@@ -46,6 +43,91 @@ $widget_title_color_gray: #797979;
   transform: scale(1.1);
 }
 
+/* ------------------------------------------------------
+##############   SECTIONS WIDGET TRICK   #################
+--------------------------------------------------------- */
+.ch-item {
+  width: 100%;
+  height: 100%;
+  cursor: default;
+  padding: 25px 0;
+}
+.ch-info-wrap{
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  perspective: 800px;
+  -webkit-perspective: 800px;
+  -moz-perspective: 800px;
+}
+.ch-info{
+  background-color: white;
+  min-height: 200px;
+}
+.ch-info > div {
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 210px;
+  background-position: center center;
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  transition: all 0.4s ease-in-out;
+  -webkit-transition: all  0.4s ease-in-out;
+  -moz-transition: all  0.4s ease-in-out;
+  padding-top: 1px;
+}
+.ch-info .ch-info-back {
+  background-color: white;
+  transform: rotateY(180deg);
+  -o-transform: rotateY(180deg);
+  -ms-transform: rotateY(180deg);
+  -webkit-transform: rotateY(180deg);
+  -moz-transform: rotateY(180deg);
+  width: 100%;
+}
+
+.ch-info:hover .ch-info-front {
+  transform: rotateY(180deg);
+}
+.ch-info h3 {
+  padding: 20px 0;
+  text-transform: uppercase;
+  font-size: 21px;
+  background-color: white;
+  min-height: 35%;
+}
+.ch-info-back p {
+  opacity: 0.8;
+  border: 1px solid lightgrey;
+  border-radius: 5px;
+  width: 60%;
+  margin-left: 20%;
+}
+.ch-info-back p:hover {
+  opacity: 1;
+  box-shadow: 0 0px 5px 4px rgba(200, 200, 200, 0.9);
+}
+.ch-info-back p a {
+  display: block;
+  color: #8e8e8e;
+  font-style: normal;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 14px;
+  padding: 10px 5px;
+}
+.ch-info:hover .ch-info-back{
+  transform: rotateY(360deg);
+  -o-transform: rotateY(360deg);
+  -ms-transform: rotateY(360deg);
+  -webkit-transform: rotateY(360deg);
+  -moz-transform: rotateY(360deg);
+}
+.height230 {
+  min-height: 230px;
+}
 /* ------------------------------------------------------
 ##############   SETTINGS WIDGET   #################
 --------------------------------------------------------- */

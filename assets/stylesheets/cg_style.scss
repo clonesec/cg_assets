@@ -1,3 +1,53 @@
+/* --------------------------------------------------------------------
+######################  FOR RESPONSIVE STYLE  #########################
+----------------------------------------------------------------------- */
+@media (max-width: 768px) {
+  .report-box-mid {
+    border-right: 0px solid #ddd;
+    border-left: 0px solid #ddd;
+  }
+}
+@media (min-width: 769px){
+  .report-box-mid {
+    border-right: 1px solid #ddd;
+    border-left: 0px solid #ddd;
+  }
+  .pding-left {
+    padding-left: 5.5px !important;
+  }
+  .pding-right {
+    padding-right: 5.5px !important;
+  }
+}
+@media (max-width: 992px) {
+  .small-menu li a {
+    font-size: 12px !important;
+    padding: 10px !important;
+  }
+}
+@media (min-width: 993px) {
+  .report-box-mid {
+    border-right: 1px solid #ddd;
+    border-left: 1px solid #ddd;
+  }
+}
+/* ------------------------------------------------------
+######################  GENERAL  #########################
+--------------------------------------------------------- */
+body {
+  background-color: #ddd !important;
+}
+.body {
+  overflow-y: scroll !important;  /* for not resized the page */
+  color: #666 !important;
+  font-size: 12px !important;
+  padding-right: 0px !important;
+}
+.body-padding-top {
+  padding-top: 90px !important;
+}
+.row-next { padding: 5px}
+
 /* ------------------------------------------------------
 ######################  NAVBAR  #########################
 --------------------------------------------------------- */
@@ -61,13 +111,23 @@
 ##############  UNAUTHENTICATED PAGES  #################
 --------------------------------------------------------- */
 
+@media (max-width: 992px) {
+  .container-login {
+    padding-top: 40px;
+  }
+}
+@media (min-width: 993px) {
+  .container-login {
+    padding-top: 120px;
+  }
+}
+/* move to gem cg_assets*/
 .form-contour {
-  // border: 1px solid lightgray;
   border-radius: 10px;
   box-shadow: 0 0 15px 5px lightgray;
   height: auto;
   margin: 15px auto;
-  padding: 50px 0;
+  padding: 50px 15px;
 }
 
 .help-description {
