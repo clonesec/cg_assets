@@ -11,6 +11,7 @@
 .font-size16 {  font-size: 16px !important;  }
 .font-size18 {  font-size: 18px !important;  }
 .font-size22 {  font-size: 22px !important;  }
+.font-size24 {  font-size: 24px !important;  }
 
 .width-5  { width: 5px }
 .width-10 { width: 10px }
@@ -54,4 +55,10 @@
 }
 .bold {
   font-weight: bold !important;
+}
+a { text-decoration: none;}
+a:hover, a:focus { text-decoration: none; }
+
+button:focus, button:active, a:focus, a:active {
+  outline: none !important;
 }
