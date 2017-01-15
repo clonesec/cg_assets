@@ -15,11 +15,6 @@ $widget_title_color_gray: #797979;
   color: $widget_title_color_gray !important;
 }
 
-
-.vertical-line-box {
-  border-right: 1px solid lightgray;
-}
-
 .widget-box {
   width: 100%;
   height: 100%;
@@ -162,4 +157,21 @@ $widget_title_color_gray: #797979;
 .color-label-low {
   background-color: #fdd017 !important;
   border: 1px solid  #fdd017;
+}
+/* ------------------------------------------------------
+############## COLORS FOR BUTTONS   #################
+--------------------------------------------------------- */
+.green-bt{
+  color: #1EB400 ;
+}
+.red-bt {
+  color: red;
+}
+
+.yellow-bt {
+  color: #FED01E ;
+}
+
+.gray-bt {
+  color: #CFCFCF ;
 }
