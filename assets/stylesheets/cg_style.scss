@@ -56,6 +56,18 @@ body {
 }
 .row-next { padding: 2.5px}
 
+/*****for trick scan again*****/
+.rotate-icon{
+  -moz-transition: all .35s linear;
+  -webkit-transition: all .35s linear;
+  transition: all .35s linear;
+}
+
+.rotate-icon.down{
+  -moz-transform:rotate(180deg);
+  -webkit-transform:rotate(180deg);
+  transform:rotate(180deg);
+}
 /* ------------------------------------------------------
 ######################  NAVBAR  #########################
 --------------------------------------------------------- */
