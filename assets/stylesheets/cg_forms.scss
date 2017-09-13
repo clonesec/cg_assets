@@ -45,11 +45,6 @@ div.content-container input {
   font-weight: bold;
 }
 
-label.required:after {
-  content: " *";
-  color: black;
-}
-
 // Tooltip
 .tooltip {
   background-color: #000;
@@ -73,7 +68,7 @@ form #select-schedules .form-control-feedback {
   top: 30px;
 }
 
-#form_user .form-group {
-  min-height: 73px !important;
-  margin-bottom:   0 !important;
+#form-user .form-group {
+  min-height: 75px;
+  margin-bottom: 0;
 }
